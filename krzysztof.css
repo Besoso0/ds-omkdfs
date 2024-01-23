@@ -1,0 +1,86 @@
+body {
+    overflow:hidden;
+    background-color: rgb(214, 214, 32);
+    font-family: Arial, sans-serif;
+  }
+  
+  #header {
+    font-family: "Harrington", sans-serif;
+    font-weight: bolder;
+    color:yellow;
+  display: inline-block;
+  background-color: pink;
+  border: 5px solid rgb(228, 67, 94);
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+  margin-right: 70%;
+  border-style: groove;
+  padding: 10px;
+  text-align: left;
+}
+  
+  #left {
+    font-family: "Harrington", sans-serif;
+    font-weight: bolder;
+    float: left;
+    width: 25%;
+    padding: 3%;
+    margin-left: 200px;
+    box-sizing: border-box;
+  }
+  
+  #right {
+    font-family: "Harrington", sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    color:rgb(0, 144, 240);
+    background-color: pink;
+    border: 5px solid rgb(228, 67, 94);
+    border-style:groove;
+    border-radius:5%;
+    float: right;
+    width: 45%;
+    padding: 20px 30px;
+    margin-right: 200px;
+    box-sizing: border-box;
+    
+  }
+  img{
+    border: 5px solid rgb(228, 67, 94);
+    border-radius: 20%; 
+    
+  border: 2px
+  }
+  
+  #footer {
+    clear: both;
+    text-align: center;
+    font-size:30px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    height:5%;
+    width: 100%;
+    background-color: #333;
+    color: white;
+  }
+
+  button{
+    font-family: "Impact", sans-serif;
+    font-size:25px;
+    color: yellow;
+    padding: 27px 50px; 
+    background-color: pink;
+    border: 3px solid rgb(228, 67, 94);
+    border-radius: 42%;
+  transition: background-color 0.3s;
+  margin-left:10%;
+  }
+
+  button:hover{
+    background-color: aqua;
+  }
+
+button:active{
+    background-color:palevioletred;
+}
